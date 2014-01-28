@@ -1,0 +1,367 @@
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profileSwitcher"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/txtEtiquetaBusqueda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_busqueda"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="11sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/cbEscenario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/escenario_cb"
+                    android:textSize="11sp" />
+
+                <CheckBox
+                    android:id="@+id/cbEvento"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/evento_cb"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtDepartamento"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/departamento"
+                    android:textSize="11sp"
+                    android:textColor="#000000"
+                    android:visibility="invisible" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autocomplete_departamentos"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:completionThreshold="1"
+                    android:ems="10"
+                    android:textSize="11sp"
+                    android:textColor="#000000"
+                    android:inputType="textImeMultiLine"
+                    android:visibility="invisible" >
+                    
+                </AutoCompleteTextView>
+
+                <ImageView
+                    android:id="@+id/btnAuto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="btnAutoClick"
+                    android:src="@drawable/common_signin_btn_icon_pressed_light"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtMunicipio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/municipio"
+                    android:textSize="11sp"
+                    android:visibility="invisible" />
+
+                <Spinner
+                    android:id="@+id/spMunicipio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/btnMunicipio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="btnMunicipioClick"
+                    android:src="@drawable/common_signin_btn_icon_pressed_light"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtEscenario"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/escenario"
+                    android:textSize="11sp"
+                    android:visibility="invisible" />
+
+                <Spinner
+                    android:id="@+id/spEscenario"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/btnEscenario"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="btnEscenarioClick"
+                    android:src="@drawable/common_signin_btn_icon_pressed_light"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnMostrar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="btnMostrarClick"
+                    android:text="Mostrar"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btnNuevaBusqueda"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="btnNuevaBusquedaClick"
+                    android:text="@string/etiqueta_btnnuevabusqueda"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/txtEtiquetaBusqueda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/etiqueta_busqueda"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="11sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/cbEscenario2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/escenario_cb"
+                    android:textSize="11dp" />
+
+                <CheckBox
+                    android:id="@+id/cbEvento2"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/evento_cb"
+                    android:textSize="11dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtPais"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/pais"
+                    android:textSize="11sp"
+                    android:visibility="invisible" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autocomplete_paises"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:completionThreshold="1"
+                    android:ems="10"
+                    android:textSize="11sp"
+                    android:inputType="textImeMultiLine"
+                    android:visibility="invisible" >
+                </AutoCompleteTextView>
+
+                <ImageView
+                    android:id="@+id/btnAuto2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="btnAutoClick2"
+                    android:src="@drawable/common_signin_btn_icon_pressed_light"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtDepartamento2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/departamento"
+                    android:textSize="11sp"
+                    android:visibility="invisible" />
+
+                <Spinner
+                    android:id="@+id/spDepartamentos"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/btnDepartamento"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="btnDepartamentoClick"
+                    android:src="@drawable/common_signin_btn_icon_pressed_light"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtMunicipio2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/municipio"
+                    android:textSize="11sp"
+                    android:visibility="invisible" />
+
+                <Spinner
+                    android:id="@+id/spMunicipios2"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/btnMunicipio2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="btnMunicipioClick2"
+                    android:src="@drawable/common_signin_btn_icon_pressed_light"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtEvento"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/evento"
+                    android:textSize="11sp"
+                    android:visibility="invisible" />
+
+                <Spinner
+                    android:id="@+id/spEventos"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/btnEvento"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="btnEventoClick"
+                    android:src="@drawable/common_signin_btn_icon_pressed_light"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="btnMotrar2Click"
+                    android:text="Mostrar"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btnNuevaBusqueda2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="btnNuevaBusqueda2Click"
+                    android:text="@string/etiqueta_btnnuevabusqueda"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</ViewSwitcher>

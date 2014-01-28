@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="paises_array">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Alemania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antartica</item>
+        <item>Antigua y Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgica</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bonaire</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Isla Bouvet</item>
+        <item>Brasil</item>
+        <item>Bulgaria</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Islas Caiman</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>China Tapei</item>
+        <item>Islas de Navidad</item>
+        <item>Islas Cocos</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Costa Rica</item>
+        <item>Costa de Marfil</item>
+        <item>Croacia</item>
+        <item>Cuba</item>
+        <item>Chipre</item>
+        <item>República Checa</item>
+        <item>Dinamarca</item>
+        <item>Dominica</item>
+        <item>Republica Dominicana </item>
+        <item>Ecuador</item>
+        <item>Egipto</item>
+        <item>Salvador</item>
+        <item>Guinea Ecuatorial</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Etiopia</item>
+        <item>Malvinas</item>
+        <item>Fiji</item>
+        <item>Finlandia</item>
+        <item>Francia</item>
+        <item>Guinea Francesa</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Grecia</item>
+        <item>Groenlandia</item>
+        <item>Granada</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungria</item>
+        <item>Islandia</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Irlanda</item>
+        <item>Israel</item>
+        <item>Italia</item>
+        <item>Jamaica</item>
+        <item>Japon</item>
+        <item>Jordania</item>
+        <item>Kazajistan</item>
+        <item>Kenia</item>
+        <item>Korea</item>
+        <item>Kiribati</item>
+        <item>Republica Democratica de Korea</item>
+        <item>Republica de Korea</item>
+        <item>Kuwait</item>
+        <item>Kirguistán</item>
+        <item>Latvia</item>
+        <item>Libano</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Jamahiriya Árabe Libia</item>
+        <item>Liechtenstein</item>
+        <item>Lituania</item>
+        <item>Luxembourgo</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malasia</item>
+        <item>Maldivas</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Mexico</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montserrate</item>
+        <item>Moroco</item>
+        <item>Mozambique</item>
+        <item>Nepal</item>
+        <item>Holanda</item>
+        <item>Netherlands Antilles</item>
+        <item>Nueva Caledonia</item>
+        <item>Nueva Zelanda</item>
+        <item>Nicaragua</item>
+        <item>Nigeria</item>
+        <item>Noruega</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Filipinas</item>
+        <item>Polonia</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Katar</item>
+        <item>Reunion</item>
+        <item>Rumania</item>
+        <item>Rusia</item>
+        <item>Ruanda</item>
+        <item>Santa Helena</item>
+        <item>Santa Lucia</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Arabia Saudita</item>
+        <item>Senegal</item>
+        <item>Sierra Leon</item>
+        <item>Singapur</item>
+        <item>Eslovaquia</item>
+        <item>Eslovenia</item>
+        <item>Isla Solomon</item>
+        <item>Somalia</item>
+        <item>Sudafrica</item>
+        <item>España</item>
+        <item>Sudan</item>
+        <item>Swazilandia</item>
+        <item>Suecia</item>
+        <item>Suiza</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Tailandia</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Trinidad y Tobago</item>
+        <item>Tunez</item>
+        <item>Turquia</item>
+        <item>Uganda</item>
+        <item>Ucrania</item>
+        <item>Emiratos Arabes Unidos</item>
+        <item>Reino Unido</item>
+        <item>Estados Unidos</item>
+        <item>Uruguay</item>
+        <item>Vaticano</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>islas Virgenes</item>
+        <item>Yemen</item>
+        <item>Yugoslavia</item>
+        <item>Zaire</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+</resources>

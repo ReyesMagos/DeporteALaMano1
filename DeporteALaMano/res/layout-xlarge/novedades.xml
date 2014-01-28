@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp" >
+
+            <Button
+                android:id="@+id/btnAcercaDe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="muestraAcercaDe"
+                android:text="@string/etiqueta_acercade" />
+
+            <Button
+                android:id="@+id/btnIrABuscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="btnIrABusqueda1"
+                android:text="@string/etiqueta_buscar" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtDepartamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/novedades_destacadas"
+            android:textSize="32sp" />
+
+        <ListView
+            android:id="@+id/lsNovedades2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="11dp"
+        android:dividerPadding="10dp"
+        android:src="@drawable/common_signin_btn_icon_pressed_light" />
+
+    <TextView
+        android:id="@+id/txtDepartamento"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="85dp"
+        android:text="Novedades Destacadas"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/lsNovedades2"
+        android:layout_width="227dp"
+        android:layout_height="294dp"
+        android:layout_x="6dp"
+        android:layout_y="103dp"
+        android:textColor="#000000" >
+    </ListView>
+
+</AbsoluteLayout>
